@@ -30,7 +30,6 @@ El proyecto incluye:
 - `main.py`: Script principal que contiene la API de FastAPI
 - `bankruptcy_knn_pipeline.joblib`: Archivo que contiene el pipeline del modelo KNN entrenado
 - `requirements.txt`: Lista de dependencias del proyecto
-- `data.csv`: (Opcional) Conjunto de datos utilizado para entrenar el modelo
 - `README.md`: Documentación del proyecto
 
 ## Configuración del Entorno
