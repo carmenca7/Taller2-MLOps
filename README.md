@@ -1,7 +1,7 @@
 
-# Predicción de Bancarrota con KNN y FastAPI
+# Predicción de Bancarrota con Red Neuronal y FastAPI
 
-Un proyecto de machine learning que implementa un modelo K-Nearest Neighbors (KNN) para predecir la probabilidad de bancarrota de empresas utilizando indicadores financieros. El modelo se despliega a través de una API construida con FastAPI y se aloja en Replit, permitiendo a los usuarios calcular la probabilidad de bancarrota mediante un endpoint.
+Un proyecto de machine learning que implementa un modelo Red Neuronal (Neural Network) para predecir la probabilidad de bancarrota de empresas utilizando indicadores financieros. El modelo se despliega a través de una API construida con FastAPI y se aloja en Replit, permitiendo a los usuarios calcular la probabilidad de bancarrota mediante un endpoint.
 
 ## Tabla de Contenidos
 
@@ -16,19 +16,19 @@ Un proyecto de machine learning que implementa un modelo K-Nearest Neighbors (KN
 
 ## Descripción del Proyecto
 
-Este proyecto proporciona una herramienta para predecir la probabilidad de bancarrota de una empresa basada en sus indicadores financieros. Utilizamos el modelo KNN debido a su alto rendimiento en términos de Recall, lo cual es crucial en escenarios donde es importante identificar correctamente los casos positivos.
+Este proyecto proporciona una herramienta para predecir la probabilidad de bancarrota de una empresa basada en sus indicadores financieros. Utilizamos el modelo Red Neuronal debido a su alto rendimiento en términos de F1-Score, lo cual es fundamental en escenarios donde es importante identificar correctamente los casos positivos.
 
 El proyecto incluye:
 
 - **Preprocesamiento de Datos**: Limpieza, tratamiento de valores atípicos mediante winsorización y balanceo de clases con SMOTE
-- **Pipeline del Modelo**: Incluye pasos de preprocesamiento y el modelo KNN entrenado
+- **Pipeline del Modelo**: Incluye pasos de preprocesamiento y el modelo Neural Network entrenado
 - **API con FastAPI**: Permite a los usuarios enviar datos y recibir predicciones y probabilidades de bancarrota
 - **Despliegue en Replit**: La API se aloja en Replit para un acceso fácil y gratuito
 
 ## Arquitectura del Proyecto
 
 - `main.py`: Script principal que contiene la API de FastAPI
-- `bankruptcy_knn_pipeline.joblib`: Archivo que contiene el pipeline del modelo KNN entrenado
+- `bankruptcy_knn_pipeline.joblib`: Archivo que contiene el pipeline del modelo Neural Network entrenado
 - `requirements.txt`: Lista de dependencias del proyecto
 - `README.md`: Documentación del proyecto
 
