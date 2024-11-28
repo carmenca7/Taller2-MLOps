@@ -11,7 +11,6 @@ Un proyecto de machine learning que implementa un modelo Red Neuronal (Neural Ne
 - [Ejecución de la Aplicación](#ejecución-de-la-aplicación)
 - [Uso del Endpoint](#uso-del-endpoint)
 - [Despliegue en Replit](#despliegue-en-replit)
-- [Contribuciones](#contribuciones)
 - [Licencia](#licencia)
 
 ## Descripción del Proyecto
