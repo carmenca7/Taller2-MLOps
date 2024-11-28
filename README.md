@@ -28,7 +28,7 @@ El proyecto incluye:
 ## Arquitectura del Proyecto
 
 - `main.py`: Script principal que contiene la API de FastAPI
-- `bankruptcy_knn_pipeline.joblib`: Archivo que contiene el pipeline del modelo Neural Network entrenado
+- `bankruptcy_pipeline.joblib`: Archivo que contiene el pipeline del modelo Neural Network entrenado
 - `requirements.txt`: Lista de dependencias del proyecto
 - `README.md`: Documentación del proyecto
 
@@ -130,7 +130,7 @@ curl -X POST "http://<tu-dominio-o-url-replit>/predict" \
 1. Haz fork de este repositorio en tu cuenta de GitHub
 2. Asegúrate de que tu repositorio contenga todos los archivos necesarios:
    - main.py
-   - bankruptcy_knn_pipeline.joblib
+   - bankruptcy_pipeline.joblib
    - requirements.txt
 
 ### Paso 2: Crear Nuevo Proyecto en Replit
@@ -172,16 +172,6 @@ Si tienes el Plan Hacker de Replit:
 1. Haz clic en el botón "Run" en Replit
 2. Replit proporcionará una URL donde tu API está alojada
 3. Prueba el endpoint de la API usando la URL proporcionada
-
-## Contribuciones
-
-¡Las contribuciones son bienvenidas! Para contribuir a este proyecto:
-
-1. Haz fork del repositorio
-2. Crea una nueva rama (`git checkout -b feature/nueva-funcionalidad`)
-3. Realiza tus cambios y haz commit (`git commit -am 'Agrega nueva funcionalidad'`)
-4. Haz push a la rama (`git push origin feature/nueva-funcionalidad`)
-5. Abre un Pull Request
 
 ## Licencia
 
