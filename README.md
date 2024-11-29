@@ -85,7 +85,7 @@ El endpoint `/predict` recibe un conjunto de indicadores financieros y devuelve 
 
 ### Formato de la Solicitud
 
-- **URL**: `http://<tu-dominio-o-url-replit>/predict`
+- **URL**: `https://127e7f81-3697-46e9-bdfd-47c4c8a9ae73-00-1xk62erge2qse.picard.replit.dev/predict`
 - **Método HTTP**: POST
 - **Encabezados**: `Content-Type: application/json`
 - **Cuerpo de la Solicitud**: JSON con los indicadores financieros requeridos
@@ -118,7 +118,7 @@ El endpoint `/predict` recibe un conjunto de indicadores financieros y devuelve 
 ### Prueba con curl
 
 ```bash
-curl -X POST "http://<tu-dominio-o-url-replit>/predict" \
+curl -X POST "https://127e7f81-3697-46e9-bdfd-47c4c8a9ae73-00-1xk62erge2qse.picard.replit.dev/predict" \
      -H "Content-Type: application/json" \
      -d '{"Attr1": 0.5, "Attr2": 1.2, "Attr3": -0.3, "Attr4": 0.8, "Attr5": 1.5, "...": "..."}'
 ```
